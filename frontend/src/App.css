@@ -1,0 +1,25 @@
+/* App-level styles - minimal, most styling is done via MUI sx props */
+
+/* Responsive breakpoints for the two-column layout */
+@media (max-width: 1024px) {
+  .main-content-wrapper {
+    flex-direction: column !important;
+  }
+  
+  .left-column {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .right-column {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content-wrapper {
+    padding: 16px !important;
+    gap: 16px !important;
+  }
+}
